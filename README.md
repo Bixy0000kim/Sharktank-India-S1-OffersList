@@ -1,7 +1,8 @@
 # Sharktank-India-S1-OffersList
 Shark Tank India (Season 1) Entrepreneurs – Offers list scrapped from: https://www.serialupdates.me/shark-tank-india-investors-names-sony-tv-new-show-entrepreneurs-list/
 
-Procedure:
+## Procedure:
+```
 •	Import selenium, Beautiful soup and Pandas packages using import
 •	Now, automate a blank browser using browser = webdriver.Edge()
 •	Initiate the required URL that we need to scrape using browser.get(‘'https://www.serialupdates.me/shark-tank-india-investors-names-sony-tv-new-show-entrepreneurs-list/'’)
@@ -17,3 +18,4 @@ Procedure:
 •	Iterate the above to get all table row cells.
 •	Define a function to combine all the scrapped data and store it in a dataframe using pd.DataFrame
 •	Now, lastly import the dataframe to a csv file using .to_csv(‘file name’)
+```
